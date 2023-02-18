@@ -6,7 +6,7 @@
 
 ​	O aplicativo Radcom foi criado por meio da tecnologia Dart/Flutter com o propósito de realizar monitoramento de pivôs agrícolas. 
 
-​	Atualmente além de monitorar, é capaz de proporcionar controle sobre algumas partes, como por exemplo ligar/desligar, quantidade de água a ser lançada, ativar/desativar a água e trocar o sentido de giro do pivô.
+​	Atualmente além de monitorar, é capaz de proporcionar controle sobre algumas partes do equipamento, como por exemplo, ligar/desligar, quantidade de água a ser lançada, ativar/desativar a água e trocar o sentido de giro do pivô.
 
 ​	Veja abaixo algumas telas e explicações adicionais.
 
@@ -14,13 +14,15 @@
 
 
 
-<img src= "./img/1_entrada.jpeg"> <img src= "./img/2_login.jpeg">
+<img src= "./img/1_Entrada.jpeg"> <img src= "./img/2_login.jpeg">
 
 
 
-​	Logo após a realizaçãodo login, o usuário chega na lista de propriedades que possui, ao escolher a propriedade, recebe a lista de equipamentos instalados nesta propriedade.
+​	Logo após a realizaçãodo login, o usuário chega na lista de propriedades que possui. Ao escolher a propriedade, recebe a lista de equipamentos instalados nesta propriedade.
 
-​	A lista de equipamentos trás algumas informações básicas em tempo real, e a situação do equipamento, se ligado(verde), desligado(violeta) ou         com problemas (vermelho), sendo que é possível identificar os problemas mais comuns.
+​	A lista de equipamentos trás algumas informações básicas em tempo real e a situação do equipamento.
+
+​	Se ligado(verde), desligado(violeta) ou com problemas (vermelho), sendo que é possível identificar os problemas mais comuns.
 
 
 
@@ -30,15 +32,15 @@
 
 ​	Abaixo, há o painel de visualização de um equipamento específico.
 
-​	Esta visualização mostra todas as informações que é possível obter do equipamento instalado. Todas as informações são trazidas em tempo real         e há também mudança nas cores de verde, para violeta ou vermelho, a depender do estado do pivô ou das pressões. Se uma determinada pressão abaixa ou sobe além do escopo definido, seu mostrador torna-se vermelho e uma mensagem é enviada aos responsáveis.
+​	Esta visualização mostra todas as informações que é possível obter do equipamento instalado. Todas as informações são trazidas em tempo real         e há mudança nas cores de verde, para violeta ou vermelho, a depender do estado do pivô ou das pressões. Se uma determinada pressão abaixa ou sobe além do escopo definido, seu mostrador torna-se vermelho e uma mensagem é enviada aos responsáveis.
 
 
 
-<img src= "./img/5_painelView.jpeg"> <img src= "./img/6_painelView2.jpeg">
+<img src= "./img/5_painelView.jpeg"> <img src= "./img/6_PainelView2.jpeg">
 
 
 
-​	Além disso é possível alterar o funcionamento do pivô, como mostrado abaixo, e também obter um gráfico das pressões, podendo inclusive fazer comparações entre elas e gerar relatório, enviando-o por vários serviços de mensageria.
+​	Além disso é possível alterar o funcionamento do pivô, como mostrado abaixo, obter um gráfico das pressões, podendo inclusive fazer comparações entre elas e gerar relatório, enviando-o por vários serviços de mensageria.
 
 
 
